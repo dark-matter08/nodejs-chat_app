@@ -1,0 +1,12 @@
+{
+  "host":"http://localhost:3000",
+  "dbURI": "mongodb+srv://root:root@realmcluster.e1lxe.mongodb.net/chatcat?retryWrites=true&w=majority",
+  "sessionSecret": "catscanfly",
+  "fb": {
+    "clientID": "751084458915048",
+    "clientSecret": "7d8b0ccf1b84975781746e65c2e57b86",
+    "callbackURL": "//localhost:3000/auth/facebook/callback",
+    "enableProof": true,
+    "profileFields": ["id", "displayName", "photos"]
+  }
+}
